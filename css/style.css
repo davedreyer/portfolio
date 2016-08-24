@@ -1,0 +1,98 @@
+body {
+	font-size: 20px;
+}
+
+/*Nav bar*/
+
+#nav-bar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+	@media (max-width: 767px) { 
+
+		#nav-bar {
+			margin-top: -10px;
+		}
+	}
+
+/*Containers*/
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.container-fluid .jumbotron {
+	padding: 20px;
+	border-radius: 0px;
+}
+
+ul {
+	margin-top: 20px;
+}
+
+.list-group-item {
+	text-align: center;
+	background: linear-gradient(rgba(255,255,255,1),rgba(235,235,235,.5));
+}
+
+div.glyph-style {
+	text-align: center;
+}
+
+/*Figure*/
+
+figure.figure {
+	width: 50%;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	figure.figure {
+	width: 75%;	
+	}
+}
+
+img {
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+figcaption.figure-caption {
+	padding-top: 15px;
+}
+
+/*Contact div*/
+
+#contact-div {
+	margin-top: 30px;
+	border-top: 1px solid rgb(175,175,175);
+	padding: 20px 0px; 
+}
+
+/*Footer*/
+
+#footer {
+	height: 75px;
+	border-top: 1px solid rgb(175,175,175);
+	background: linear-gradient(rgba(255,255,255,1),rgba(150,150,150,.5));
+}
+
+/*General styles*/
+
+.clear-left {
+	clear: left;
+}
+
+.clear-right {
+	clear: right;
+}
+
+/*Elements*/
+
+p {
+	margin-bottom: 20px;
+}
+
+
